@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Submission:</h1>
+    
+        <form method="POST">
+    First Name<input type="text" name="firstname" id="firstname"><br>
+    Last Name<input type="text" name="lastname" id="lastname"><br>
+    Address Line1<input type="text" name="addressline1" id="addressline1"><br>
+    Address Line2<input type="text" name="addressline2" id="addressline2"><br>
+    PIN<input type="number" name="pin" id="pin"><br>
+    Gender<br>
+    <input type="radio">Male<br>
+    <input type="radio">Female<br>
+    Choice of Food: (must choose at least 2 out of 5 options)<br>
+    <input type="checkbox" >North Indian<br>
+    <input type="checkbox" >South Indian<br>
+    <input type="checkbox" >Chinese<br>
+    <input type="checkbox" >Japanese<br>
+    <input type="checkbox" >Sea Food<br>
+    State<input type="text" name="state" id="state"><br>
+    Country<input type="text" name="country" id="country"><br>
+    <button type="button" 
+        id="updateButton" 
+        class="btn btn-primary" 
+        onclick="productUpdate();">Submit</button>
+
+
+    <script src="3.js"></script>
+</form>
+
+</body>
+</html>
